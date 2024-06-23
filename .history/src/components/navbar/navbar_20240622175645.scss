@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    .left-nav {
+        flex: 1;
+    }
+    .right-nav {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 200px;
+        font-size: 20px;
+        font-weight: 400;
+        flex: 1;
+        gap: 50px;
+        :active {
+            color: #FC8B00;
+        }
+        
+    }
+   
+
+}
+.mobile-nav {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: none; 
+    }
+    .mobile-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 5px;
+     
+       
+        .right-nav {
+            
+            
+        }
+    }
+    
+
+}
