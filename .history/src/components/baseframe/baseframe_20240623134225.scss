@@ -1,0 +1,93 @@
+.baseframe {
+    background: url(../../assets//basevec.png);
+}
+.baseframe-content {
+    h1,h2,p,span {
+        margin: 0;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 20px;
+    header {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 75px;
+    }
+    
+    .download-btns {
+        display: flex;
+        gap: 16px;
+        //Plus Jakarta Sans
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 278px;
+            height: 64px;
+            border: none;
+            border-radius: 8px;
+            background: #033454;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: 500;
+            gap: 8px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .baseframe-content {
+        h1,h2,p,span {
+            margin: 0;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+        gap: 20px;
+        header {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        .baseframe-image {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 50%;
+            }
+        }
+        
+        .download-btns {
+            display: flex;
+            gap: 6px;
+            //Plus Jakarta Sans
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 113px;
+                height: 26px;
+                border: none;
+                border-radius: 8px;
+                background: #033454;
+                color: #FFFFFF;
+                font-size: 6px;
+                font-weight: 500;
+                gap: 2px;
+                img {
+                    width: 10px;
+                }
+            }
+        }
+    }
+    
+
+}
