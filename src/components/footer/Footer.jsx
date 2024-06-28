@@ -32,7 +32,7 @@ const footer = () => {
             <ul> WE ARE SOCIAL
                 <li><a href="https://x.com/batikash?s=21">X</a></li>
                 <li><a  href="https://www.instagram.com/batikashng?igsh=MWEzMnF4cGpuMnh4aA==">Instagram</a></li>
-                <li><a  href="https://www.facebook.com/share/8WeCjSyGHPRRRo/?mibexid=LQQJ4d">Facebook</a></li>
+                <li><a  href="https://www.facebook.com/share/8WeCjSyGBGHPRRRo/?mibextid=LQQJ4d">Facebook</a></li>
                 <li><a  href="https://www.linkedin.com/company/batikash/">Linkedin</a></li>
                 
             </ul>
