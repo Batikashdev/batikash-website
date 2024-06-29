@@ -91,7 +91,7 @@ footer {
             align-items: center;
             justify-content: center;
             background: #033454;
-            padding: 40px 22px;
+            padding: 50px 22px;
            
             .left-content {
                 flex: 1;
@@ -105,14 +105,14 @@ footer {
                 flex-direction: column;
                 gap: 14px;
                 h2 {
-                    font-size: 18px;
+                    font-size: 19px;
                     font-weight: 700;
                     line-height: 21px;
                     color: #FFFFFF;
                 }
                 .input {
-                    width: 80%;
-                    height: 25px;
+                    width: 85%;
+                    height: 30px;
                     overflow: hidden;
                     display: flex;
                     justify-content: space-between;
@@ -122,7 +122,7 @@ footer {
                     input {
                         width: 100%;
                         border: none;
-                        font-size: 6.22px;
+                        font-size: 10px;
                         font-weight: 400;
                         text-indent: 10px;
                         border-radius: 3.25px;
@@ -138,7 +138,7 @@ footer {
                         background: #FC8B00;
                         border: none;
                         border-radius: 3.25px;
-                        font-size: 6.22px;
+                        font-size: 10px;
                         color: #FFFFFF;
                       
                     }

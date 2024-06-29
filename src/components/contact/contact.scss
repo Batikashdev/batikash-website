@@ -107,7 +107,7 @@
 
 @media (max-width: 600px) {
     .contact_wrapper {
-        height: 10vh;
+        height: 30vh;
         .contact_frame1-content {
             gap: 10px;
             h1 {
@@ -116,7 +116,7 @@
                 line-height: 26.35px;  
             }
             p {
-                font-size: 9.32px;
+                font-size: 10px;
                 font-weight: 400;
                 line-height: 9.67px;
                 
@@ -133,32 +133,35 @@
     padding: 40px 0px 40px 15px;
     .left-content {
         h2 {
-            font-size: 14.64px;
+            font-size: 16px;
             font-weight: 700;
             line-height: 17.56px;
             letter-spacing: 0.007em;
         }
         ul {
-            font-size: 8.03px;
+            font-size: 10px;
             font-weight: 600;
             line-height: 9.43px;
             letter-spacing: 0.005em;
             gap: 4px;            
             li {
-                font-size: 6.27px;
+                font-size: 10px;
                 font-weight: 400;
                 line-height: 7.32px;
                 letter-spacing: 0.007em;
                 color: rgba(0, 0, 0, 0.6);
                 .icon {
-                    font-size: 7px;
+                    font-size: 10px;
                     color: #FC8B00;
                 }
+               
             }
+            
         }
+       
 
     }
-  
+    
 }
 
 }

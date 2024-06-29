@@ -20,10 +20,10 @@ const Frame2 = () => {
             </ul>
 
             <ul> Social Media
-                <li><a href=""><BsInstagram  className="icon"/>http://www.instagram.com/batikash</a></li>
-                <li><a href=""><FaXTwitter  className="icon"/>http://www.twitter.com/batikash</a></li>
-                <li><a href="">< FaLinkedin  className="icon"/>http://www.linedin.com/batikash</a></li>
-                <li><a href=""><FaFacebook  className="icon" />http://www.facebook.com/batikash</a></li>
+                <li><a href="https://www.instagram.com/batikashng?igsh=MWEzMnF4cGpuMnh4aA=="><BsInstagram  className="icon"/>instagram.com</a></li>
+                <li><a href="https://x.com/batikash?s=21"><FaXTwitter  className="icon"/>www.twitter.com</a></li>
+                <li><a href="https://www.linkedin.com/company/batikash/">< FaLinkedin  className="icon"/>www.linkedin.com</a></li>
+                <li><a href="https://www.facebook.com/share/8WeCjSyGBGHPRRRo/?mibextid=LQQJ4d"><FaFacebook  className="icon" />www.facebook.com</a></li>
             </ul>
         </div>
         <div className="right-content">

@@ -68,7 +68,7 @@
         .card-info {
           border-top: 1px solid #c2c0c0;
            background: rgba(0, 0, 0, 0.2);
-           backdrop-filter: blur(5px);
+           backdrop-filter: blur(4px);
             color: #FFFFFF;
             position: absolute;
             bottom: 0;
@@ -184,7 +184,7 @@
     .card-image {
         .card-info {
             height: 25%;
-            gap: 200px;
+            gap: 185px;
             :nth-child(1) {
                 p {
                     font-size: 15px;
