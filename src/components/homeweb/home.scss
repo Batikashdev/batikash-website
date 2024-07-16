@@ -5,7 +5,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-top: 40px;
+    margin-top: 100px;
     header {
         display: flex;
         flex-direction: column;
@@ -65,23 +65,23 @@ section {
             }
             .numbers {
                 display: flex;
-                align-items: center;
-                gap: 60px;
+                align-items: baseline;
+                gap: 40px;
                 div {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    gap: 10px;
+                    gap: 5px;
                     .num {
                         display: flex;
                         align-items: center;
                         font-size: 40px;
                         font-weight: 300;
                         line-height: 57px;
-                        color: black;
+                        color: rgb(0, 0, 0);
                         span {
-                            font-size: 24px;
+                            font-size: 40px;
                         }
                     }
                     p {
@@ -94,6 +94,7 @@ section {
                 }
                 .testimonial {
                     align-items: flex-start;
+                   
                    
                 }
             }
@@ -220,7 +221,7 @@ section {
    
     section {
         gap: 11px;
-        margin-top: 20px;
+        margin-top: 10px;
    
     
         header {
@@ -256,7 +257,7 @@ section {
                    
                 }
                 p {
-                    font-size: 13px;
+                    font-size: 12px;
                     line-height: 20px;
                     text-align: center;
                 }
@@ -264,13 +265,13 @@ section {
                     gap: 9px;
                     //Plus Jakarta Sans
                     div {
-                        
-                        width: 151px;
+                        gap: 5px;
+                        width: 165px;
                         height: 40px;
                         border-radius: 4px;
                         font-size: 10px;
                         img {
-                            width: 15px;
+                            width: 17px;
                         }
                        
                     }
@@ -293,21 +294,25 @@ section {
                         .num {
                             display: flex;
                             align-items: center;
+                            margin-top: 10px;
                             font-size: 24px;
                             font-weight: 300;
-                            line-height: 57px;
+                            line-height: 37px;
                             color: black;
+                            
                            
                            
                             span {
-                                font-size: 15.6px;
-                                font-weight: 500;
+                                font-size: 25px;
+                                font-weight: 300;
                                 margin-left: 3px;
+                            
+                                
                                
                             }
                         }
                         p {
-                            font-size: 8.6px;
+                            font-size: 8px;
                             font-weight: 400;
                             color: #455A64;
                         }
@@ -467,7 +472,96 @@ section {
 
 
 }
+@media (max-width: 360px) {
+    section {
+        header {
+            hr {
+                height: 3px;
+                width: 150px;
+            }
+        }
+        .frame-content {
+            .left-content {
+                h1 {
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+                .download-btns {
+                    gap: 9px;
+                    //Plus Jakarta Sans
+                    div {
+                        gap: 5px;
+                        width: 150px;
+                        height: 35px;
+                        border-radius: 4px;
+                        font-size: 9px;
+                        img {
+                            width: 17px;
+                        }
+                       
+                    }
+                }
+                .numbers {
+                    display: flex;
+                    align-items: center;
+                    gap: 21px;
+                    div {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        gap: 0px;
+                       
+                        img{
+                            width: 80px;
+                        }
+                       
+                        .num {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 10px;
+                            font-size: 24px;
+                            font-weight: 300;
+                            line-height: 37px;
+                            color: black;
+                            
+                           
+                           
+                            span {
+                                font-size: 25px;
+                                font-weight: 300;
+                                margin-left: 3px;
+                            
+                                
+                               
+                            }
+                        }
+                        p {
+                            font-size: 8px;
+                            font-weight: 400;
+                            color: #455A64;
+                        }
+                        
+                        
+                  
+                       
+                    }
+               
+                }
+            }
+        }
+        .right-content {
+            img {
+                width: 100%;
+            }
+        }
+    }
 
+}
 
 
 

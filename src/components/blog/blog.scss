@@ -146,7 +146,7 @@
             display: grid;
             grid-template-columns: 1fr;
             align-items: center;
-            padding: 0px;
+            padding: 10px 0px 0px 0px;
             .left {
               
                 h1 {
@@ -156,6 +156,9 @@
                 p {
                     font-size: 16px;
                     line-height: 19px;
+                    width: 80%;
+                    text-align: center;
+                    margin: 0 auto;
                 }
             }
             .right {

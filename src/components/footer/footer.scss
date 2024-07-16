@@ -63,10 +63,15 @@ footer {
             display: flex;
             flex-direction: column;
             gap: 17px;
+            
             li {
                 font-weight: 300;
                 list-style: none;
                 color: #455A64;
+               a {
+                text-decoration: none;
+                color: inherit;
+               }
             }
         }
     }
@@ -105,7 +110,7 @@ footer {
                 flex-direction: column;
                 gap: 14px;
                 h2 {
-                    font-size: 19px;
+                    font-size: 20px;
                     font-weight: 700;
                     line-height: 21px;
                     color: #FFFFFF;
@@ -150,7 +155,7 @@ footer {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            font-size: 20px;
+            font-size: 17px;
             padding: 10px 22px;
             ul {
                 font-weight: 700;

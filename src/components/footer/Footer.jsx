@@ -1,19 +1,25 @@
 import "./footer.scss"
 import image1 from '../../assets/Group 5958.png'
 import Logo from '../../assets/BATIKASH-LOGO.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from "react";
 
 const footer = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
   return (
     <footer>
         <div className="newsletter-footer">
-            <div className="left-content">
+            <div className="left-content" data-aos="fade-left">
                 <img src={image1} alt=""/>
             </div>
-            <div className="right-content">
+            <div className="right-content" data-aos="fade-up">
                 <h2>Let us send you offerings</h2>
                 <div className="input">
                     <input placeholder="Input your email address in here"/>
-                    <button>Subscribe Now</button>
+                    <button data-aos="zoom-in" data-aos-duration="3000">Subscribe Now</button>
                 </div>
             </div>
         </div>
