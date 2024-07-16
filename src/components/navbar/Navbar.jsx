@@ -17,7 +17,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 0);
-      setHideNavbar(window.scrollY > 1000); // Adjust the scroll value as needed
+      setHideNavbar(window.scrollY > 1000);
     };
 
     window.addEventListener("scroll", handleScroll);
