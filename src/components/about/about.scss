@@ -74,20 +74,28 @@ section {
               line-height: 35px;
               
           }
+          h2{
+            font-weight: 600;
+          }
+
+          .about {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
           
       }
       .right-content {
         flex: 1;
        img {
         width: 100%;
-       }
-      
-       
-         
-          
-         
+       } 
       }
   }
+  
+}
+.sub-title {
+  font-size: 35px;
 }
 
 //FRAME-3//
@@ -234,7 +242,12 @@ section {
              
           }
       }
+     
     }
+    .sub-title {
+      font-size: 20px;
+    }
+
 
     //FRAME-3 MOBILE//
     section {

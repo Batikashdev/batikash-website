@@ -77,10 +77,11 @@ nav {
             position: absolute;
                 right: 0;
                 top: 0;
-                width: 40vw;
+                width: 50vw;
                 height: 100vh;
                 padding: 20px 17px ;
                 z-index: 2000;
+                transition: all 1s ease;
                 .cancel {
                     font-size: 40px;
                     width: 100%;

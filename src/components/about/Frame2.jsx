@@ -24,10 +24,15 @@ const Frame2 = () => {
         Batikash is more than just an app; it's your one-stop shop for a simpler, smarter, and more rewarding digital life. We're passionate about empowering you to:
         Shop smarter, Pay with ease, Grow your wealth, Run your business 
         </p>
-        <h2>What Sets Us Apart</h2>
-        <p>-We're Innovators: We're constantly pushing boundaries and developing new features like Bati-Leverage (if applicable) to transform the way you interact with your finances and investments.<br/>-We're Your Shopping Buddy: We bring you unbeatable deals on a vast selection of appliances, electronics, and gadgets, making it easier to find what you need without breaking the bank.<br/>-We're Security Champions: Your trust is paramount. We prioritize industry-leading security measures to safeguard your financial information and transactions.<br/>-We're Convenience Personified: Manage your money, shop for what you desire, and explore investment opportunities – all from the palm of your hand with our user-friendly app.
+        <div className="about">
+        <span className="sub-title">What Sets Us Apart</span>
+        <p><b>We're Innovators</b>: We're constantly pushing boundaries and developing new features like Bati-Leverage (if applicable) to transform the way you interact with your finances and investments.</p>
+        <p><b>We're Your Shopping Buddy</b>: We bring you unbeatable deals on a vast selection of appliances, electronics, and gadgets, making it easier to find what you need without breaking the bank.</p>
+        <p><b>We're Security Champions</b>: Your trust is paramount. We prioritize industry-leading security measures to safeguard your financial information and transactions.</p>
+        <p><b>We're Convenience Personified</b>: Manage your money, shop for what you desire, and explore investment opportunities – all from the palm of your hand with our user-friendly app.</p>
+        </div>
+        
 
-</p>
       </div>
     </div>
   </section>
