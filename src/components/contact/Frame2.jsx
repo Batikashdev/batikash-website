@@ -20,7 +20,7 @@ const Frame2 = () => {
             </ul>
 
             <ul> Call us on
-                <li data-aos="fade-left" > <FaPhoneAlt  className="icon"/> +1 (800) 123-4567</li>
+                <li data-aos="fade-left" > <FaPhoneAlt  className="icon"/> +234(8140889338)</li>
             </ul>
 
             <ul> Social Media
