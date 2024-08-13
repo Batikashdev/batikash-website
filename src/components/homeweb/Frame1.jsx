@@ -47,7 +47,7 @@ const Frame1 = () => {
           <div className="numbers">
             <div>
               <p className="num">
-                <CountUp start={0} end={2.5} duration={15} decimals={1} />
+                <CountUp start={0} end={4.5} duration={15} decimals={1} />
                 <span style={{ color: "#004BFF" }}>+</span>
               </p>
               <p>Years Experience</p>
