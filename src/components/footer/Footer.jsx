@@ -49,7 +49,7 @@ const footer = () => {
             </ul>
 
             <ul> COMPANY
-                <li><a href="https://www.linkedin.com/safety/go?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F13fXTPnZbvx3-P7Mom-88Nci9gOpIl41IqL4KLtRt5tI%2Fedit&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-YTU2MjkxNDgtZGI4Ni00ZGE3LWJkOWYtMjhkMzEyY2NmNzM4XzAxMw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3Bg8S%2B%2Bn83TBuFcKlXGGjgCA%3D%3D'/> </a> Privacy Policy</li>
+                <li><a href="https://www.linkedin.com/safety/go?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F13fXTPnZbvx3-P7Mom-88Nci9gOpIl41IqL4KLtRt5tI%2Fedit&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-YTU2MjkxNDgtZGI4Ni00ZGE3LWJkOWYtMjhkMzEyY2NmNzM4XzAxMw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3Bg8S%2B%2Bn83TBuFcKlXGGjgCA%3D%3D"</a> Privacy Policy</li>
                 <li>Terms Of Service</li>
                 
             </ul>
